@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisneyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Android Development with Internshala"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:text="Android learning is fun"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="italic"
+        android:textColor="@color/purple_700"/>
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/anna_frozen" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Click Here"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/purple_700" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name here"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:textColor="#FF0000"
+    />
+
+</LinearLayout>

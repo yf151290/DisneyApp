@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/anna"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/anna_frozen" />
+
+            <TextView
+                android:id="@+id/Name0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name-Anna of Arendelle"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/anna"
+                android:layout_marginTop="20dp"
+                android:textColor="#3d85c6"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/MovieName0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name0"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/anna"
+                android:text="Movie-Frozen"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/qualities0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MovieName0"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/anna"
+                android:text="Qualities-Goofy,optimistic,loyal, and a hopeless romantic"
+                android:textColor="#3d85c6"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/Mulan"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/mulan" />
+
+            <TextView
+                android:id="@+id/Name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/Mulan"
+                android:layout_below="@id/anna"
+                android:text="Name-Mulan"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/MovieName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name1"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/Mulan"
+                android:text="Movie-Brave"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/qualities1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MovieName1"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/Mulan"
+                android:text="Qualities-Goofy,optimistic,loyal, and a hopeless romantic"
+                android:textColor="#3d85c6"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/elsa"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/elsa" />
+
+        <TextView
+            android:id="@+id/Name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name-Elsa"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/elsa"
+            android:layout_below="@id/Mulan"
+            android:layout_marginTop="20dp"
+            android:textColor="#3d85c6"
+            android:textStyle="bold"
+
+            />
+
+            <TextView
+                android:id="@+id/MovieName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name2"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/elsa"
+                android:text="Movie-Frozen"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="italic"
+
+                />
+
+        <TextView
+            android:id="@+id/qualities2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MovieName2"
+            android:layout_toRightOf="@id/elsa"
+            android:text="Qualities-Goofy,optimistic,loyal, and a hopeless romantic"
+            android:textColor="#3d85c6"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/poco"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/poca" />
+
+            <TextView
+                android:id="@+id/Name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/elsa"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/poco"
+                android:text="Name-Pocohantos"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/MovieName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name3"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/poco"
+                android:text="Movie-Frozen"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/qualities3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MovieName3"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/poco"
+                android:text="Qualities-Goofy,optimistic,loyal, and a hopeless romantic"
+                android:textColor="#3d85c6"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/merida"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/merida" />
+
+            <TextView
+                android:id="@+id/Name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/merida"
+                android:text="Name-Merida"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/MovieName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name4"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/merida"
+                android:text="Movie-Brave"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/qualities4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MovieName4"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/merida"
+                android:text="Qualities-Goofy,optimistic,loyal, and a hopeless romantic"
+                android:textColor="#3d85c6"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/Rapunzal"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/rapunzel" />
+
+
+            <TextView
+                android:id="@+id/Name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/Rapunzal"
+                android:text="Name-Rapunzal"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/MovieName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name5"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/Rapunzal"
+                android:text="Movie-Rapunzal"
+                android:textColor="#3d85c6"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/qualities5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MovieName5"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/Rapunzal"
+                android:text="Qualities-Goofy,optimistic,loyal, and a hopeless romantic"
+                android:textColor="#3d85c6"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
